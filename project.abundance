@@ -4,10 +4,95 @@
     "x": 0,
     "y": 0,
     "uniqueID": 1718124614110,
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "outter_diameter",
+            "ioValue": 452
+        },
+        {
+            "name": "thickness",
+            "ioValue": 10
+        }
+    ],
     "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1718124624095,
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1718124662569
+                }
+            ]
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.2625,
+            "y": 0.3954022988505747,
+            "uniqueID": 1718124662569,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 452
+                }
+            ]
+        },
+        {
+            "atomType": "Input",
+            "name": "outter_diameter",
+            "x": 0.013333333333333334,
+            "y": 0.464367816091954,
+            "uniqueID": 1718124679556,
+            "ioValues": []
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.4479166666666667,
+            "y": 0.6965517241379311,
+            "uniqueID": 1718124728384,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
+                    "name": "height",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Input",
+            "name": "thickness",
+            "x": 0.013333333333333334,
+            "y": 0.5655172413793104,
+            "uniqueID": 1718124734979,
+            "ioValues": []
+        }
+    ],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1718124662569,
+            "ap2ID": 1718124624095
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "diameter",
+            "ap2Primary": false,
+            "ap1ID": 1718124679556,
+            "ap2ID": 1718124662569
+        },
+        null
+    ],
     "unitsIndex": 0,
     "fileTypeVersion": 1,
     "filetypeVersion": 1
