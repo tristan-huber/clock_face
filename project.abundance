@@ -11,23 +11,18 @@
         },
         {
             "name": "thickness",
-            "ioValue": 10
+            "ioValue": 13
         }
     ],
     "topLevel": true,
     "allAtoms": [
         {
-            "atomType": "Output",
-            "name": "Output",
-            "x": 0.98,
-            "y": 0.5,
-            "uniqueID": 1718124624095,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1718124662569
-                }
-            ]
+            "atomType": "Input",
+            "name": "outter_diameter",
+            "x": 0.013333333333333334,
+            "y": 0.5218390804597701,
+            "uniqueID": 1718124679556,
+            "ioValues": []
         },
         {
             "atomType": "Circle",
@@ -44,10 +39,10 @@
         },
         {
             "atomType": "Input",
-            "name": "outter_diameter",
+            "name": "thickness",
             "x": 0.013333333333333334,
-            "y": 0.464367816091954,
-            "uniqueID": 1718124679556,
+            "y": 0.6551724137931034,
+            "uniqueID": 1718124734979,
             "ioValues": []
         },
         {
@@ -59,31 +54,60 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": ""
+                    "ioValue": 1718124662569
                 },
                 {
                     "name": "height",
+                    "ioValue": 13
+                }
+            ]
+        },
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1718124624095,
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1718124728384
+                }
+            ]
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.5151041666666667,
+            "y": 0.23448275862068965,
+            "uniqueID": 1718124776433,
+            "ioValues": [
+                {
+                    "name": "diameter",
                     "ioValue": 10
                 }
             ]
         },
         {
-            "atomType": "Input",
-            "name": "thickness",
-            "x": 0.013333333333333334,
-            "y": 0.5655172413793104,
-            "uniqueID": 1718124734979,
-            "ioValues": []
+            "atomType": "Equation",
+            "name": "x + y",
+            "x": 0.4203125,
+            "y": 0.39080459770114945,
+            "uniqueID": 1718124790095,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 1
+                },
+                {
+                    "name": "y",
+                    "ioValue": 1
+                }
+            ],
+            "currentEquation": "x + y"
         }
     ],
     "allConnectors": [
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 1718124662569,
-            "ap2ID": 1718124624095
-        },
         {
             "ap1Name": "number or geometry",
             "ap2Name": "diameter",
@@ -91,7 +115,27 @@
             "ap1ID": 1718124679556,
             "ap2ID": 1718124662569
         },
-        null
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1718124662569,
+            "ap2ID": 1718124728384
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "height",
+            "ap2Primary": false,
+            "ap1ID": 1718124734979,
+            "ap2ID": 1718124728384
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1718124728384,
+            "ap2ID": 1718124624095
+        }
     ],
     "unitsIndex": 0,
     "fileTypeVersion": 1,
