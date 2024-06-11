@@ -17,14 +17,6 @@
     "topLevel": true,
     "allAtoms": [
         {
-            "atomType": "Input",
-            "name": "outter_diameter",
-            "x": 0.013333333333333334,
-            "y": 0.5218390804597701,
-            "uniqueID": 1718124679556,
-            "ioValues": []
-        },
-        {
             "atomType": "Circle",
             "name": "Circle",
             "x": 0.2625,
@@ -36,6 +28,45 @@
                     "ioValue": 452
                 }
             ]
+        },
+        {
+            "atomType": "Input",
+            "name": "outter_diameter",
+            "x": 0.013333333333333334,
+            "y": 0.439080459770115,
+            "uniqueID": 1718124679556,
+            "ioValues": []
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.2984375,
+            "y": 0.1425287356321839,
+            "uniqueID": 1718124776433,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Equation",
+            "name": "t - b",
+            "x": 0.4677083333333333,
+            "y": 0.4344827586206897,
+            "uniqueID": 1718124790095,
+            "ioValues": [
+                {
+                    "name": "t",
+                    "ioValue": 13
+                },
+                {
+                    "name": "b",
+                    "ioValue": 4.75
+                }
+            ],
+            "currentEquation": "t - b"
         },
         {
             "atomType": "Input",
@@ -76,45 +107,23 @@
             ]
         },
         {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.5151041666666667,
-            "y": 0.23448275862068965,
-            "uniqueID": 1718124776433,
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 10
-                }
-            ]
+            "atomType": "Constant",
+            "name": "Constant",
+            "x": 0.3234375,
+            "y": 0.23678160919540228,
+            "uniqueID": 1718124896444,
+            "ioValues": []
         },
         {
-            "atomType": "Equation",
-            "name": "x + y",
-            "x": 0.4203125,
-            "y": 0.39080459770114945,
-            "uniqueID": 1718124790095,
-            "ioValues": [
-                {
-                    "name": "x",
-                    "ioValue": 1
-                },
-                {
-                    "name": "y",
-                    "ioValue": 1
-                }
-            ],
-            "currentEquation": "x + y"
+            "atomType": "Constant",
+            "name": "Constant",
+            "x": 0.18333333333333335,
+            "y": 0.19540229885057472,
+            "uniqueID": 1718124951026,
+            "ioValues": []
         }
     ],
     "allConnectors": [
-        {
-            "ap1Name": "number or geometry",
-            "ap2Name": "diameter",
-            "ap2Primary": false,
-            "ap1ID": 1718124679556,
-            "ap2ID": 1718124662569
-        },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
@@ -124,10 +133,24 @@
         },
         {
             "ap1Name": "number or geometry",
+            "ap2Name": "diameter",
+            "ap2Primary": false,
+            "ap1ID": 1718124679556,
+            "ap2ID": 1718124662569
+        },
+        {
+            "ap1Name": "number or geometry",
             "ap2Name": "height",
             "ap2Primary": false,
             "ap1ID": 1718124734979,
             "ap2ID": 1718124728384
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "t",
+            "ap2Primary": false,
+            "ap1ID": 1718124734979,
+            "ap2ID": 1718124790095
         },
         {
             "ap1Name": "geometry",
@@ -135,6 +158,13 @@
             "ap2Primary": false,
             "ap1ID": 1718124728384,
             "ap2ID": 1718124624095
+        },
+        {
+            "ap1Name": "number",
+            "ap2Name": "b",
+            "ap2Primary": false,
+            "ap1ID": 1718124896444,
+            "ap2ID": 1718124790095
         }
     ],
     "unitsIndex": 0,
