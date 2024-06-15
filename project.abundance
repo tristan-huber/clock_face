@@ -127,36 +127,6 @@
             ]
         },
         {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.4479166666666667,
-            "y": 0.6965517241379311,
-            "uniqueID": 1718124728384,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1718124662569
-                },
-                {
-                    "name": "height",
-                    "ioValue": 13
-                }
-            ]
-        },
-        {
-            "atomType": "Output",
-            "name": "Output",
-            "x": 0.98,
-            "y": 0.5,
-            "uniqueID": 1718124624095,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": ""
-                }
-            ]
-        },
-        {
             "atomType": "Rotate",
             "name": "Rotate",
             "x": 0.69375,
@@ -178,6 +148,23 @@
                 {
                     "name": "z-axis degrees",
                     "ioValue": 0
+                }
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.4479166666666667,
+            "y": 0.6965517241379311,
+            "uniqueID": 1718124728384,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1718124662569
+                },
+                {
+                    "name": "height",
+                    "ioValue": 13
                 }
             ]
         },
@@ -208,6 +195,19 @@
                 {
                     "name": "Material Thickness",
                     "ioValue": 13
+                }
+            ]
+        },
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1718124624095,
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1718409604860
                 }
             ]
         }
@@ -292,17 +292,17 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry1",
-            "ap2Primary": false,
-            "ap1ID": 1718124728384,
-            "ap2ID": 1718125030787
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 1718409224424,
             "ap2ID": 1718409241627
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry1",
+            "ap2Primary": false,
+            "ap1ID": 1718124728384,
+            "ap2ID": 1718125030787
         },
         {
             "ap1Name": "geometry",
