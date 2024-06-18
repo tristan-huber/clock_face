@@ -215,6 +215,19 @@
                     "ioValue": 1718409604860
                 }
             ]
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.5989583333333334,
+            "y": 0.8894009216589862,
+            "uniqueID": 1718741597278,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ]
         }
     ],
     "allConnectors": [
