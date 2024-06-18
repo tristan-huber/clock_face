@@ -170,7 +170,7 @@
         },
         {
             "atomType": "Tag",
-            "name": "Add Tag",
+            "name": ",cutLayout",
             "x": 0.7203125,
             "y": 0.7534562211981566,
             "uniqueID": 1718409241627,
@@ -179,7 +179,12 @@
                     "name": "geometry",
                     "ioValue": 1718409224424
                 }
-            ]
+            ],
+            "tags": [
+                "",
+                "cutLayout"
+            ],
+            "cutTag": true
         },
         {
             "atomType": "CutLayout",
@@ -194,7 +199,7 @@
                 },
                 {
                     "name": "Material Thickness",
-                    "ioValue": 13
+                    "ioValue": ""
                 }
             ]
         },
@@ -275,13 +280,6 @@
             "ap2Primary": false,
             "ap1ID": 1718124734979,
             "ap2ID": 1718124790095
-        },
-        {
-            "ap1Name": "number or geometry",
-            "ap2Name": "Material Thickness",
-            "ap2Primary": false,
-            "ap1ID": 1718124734979,
-            "ap2ID": 1718409604860
         },
         {
             "ap1Name": "geometry",
