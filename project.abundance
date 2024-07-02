@@ -202,8 +202,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.8296875,
-            "y": 0.7211981566820277,
+            "x": 0.8411458333333334,
+            "y": 0.7320703653585927,
             "uniqueID": 1718409604860,
             "ioValues": [
                 {
@@ -212,7 +212,7 @@
                 },
                 {
                     "name": "Material Thickness",
-                    "ioValue": ""
+                    "ioValue": 13
                 }
             ]
         },
@@ -295,6 +295,13 @@
             "ap2ID": 1718124790095
         },
         {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Material Thickness",
+            "ap2Primary": false,
+            "ap1ID": 1718124734979,
+            "ap2ID": 1718409604860
+        },
+        {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
@@ -332,5 +339,6 @@
     ],
     "unitsIndex": 0,
     "fileTypeVersion": 1,
+    "compiledBom": [],
     "filetypeVersion": 1
 }
