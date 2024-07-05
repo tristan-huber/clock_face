@@ -213,6 +213,10 @@
                 {
                     "name": "Material Thickness",
                     "ioValue": 13
+                },
+                {
+                    "name": "Spacing",
+                    "ioValue": 0.25
                 }
             ]
         },
@@ -222,7 +226,12 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1718124624095,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1718409604860
+                }
+            ]
         }
     ],
     "allConnectors": [
