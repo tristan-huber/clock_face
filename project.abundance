@@ -154,8 +154,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.43489583333333337,
-            "y": 0.8847926267281107,
+            "x": 0.43671875000000004,
+            "y": 0.5658362989323843,
             "uniqueID": 1718124728384,
             "ioValues": [
                 {
@@ -213,10 +213,6 @@
                 {
                     "name": "Material Thickness",
                     "ioValue": 13
-                },
-                {
-                    "name": "Spacing",
-                    "ioValue": 0.25
                 }
             ]
         },
@@ -257,6 +253,40 @@
                     "ioValue": 0
                 }
             ]
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.24296875,
+            "y": 0.8149466192170818,
+            "uniqueID": 1722974261969,
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 452
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 452
+                }
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.39296875,
+            "y": 0.8861209964412811,
+            "uniqueID": 1722974276447,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1722974261969
+                },
+                {
+                    "name": "height",
+                    "ioValue": 13
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -287,6 +317,20 @@
             "ap2Primary": false,
             "ap1ID": 1718124679556,
             "ap2ID": 1718124662569
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "x length",
+            "ap2Primary": false,
+            "ap1ID": 1718124679556,
+            "ap2ID": 1722974261969
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "y length",
+            "ap2Primary": false,
+            "ap1ID": 1718124679556,
+            "ap2ID": 1722974261969
         },
         {
             "ap1Name": "geometry",
@@ -331,6 +375,13 @@
             "ap2ID": 1718409604860
         },
         {
+            "ap1Name": "number or geometry",
+            "ap2Name": "height",
+            "ap2Primary": false,
+            "ap1ID": 1718124734979,
+            "ap2ID": 1722974276447
+        },
+        {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
@@ -371,9 +422,15 @@
             "ap2Primary": false,
             "ap1ID": 1718409604860,
             "ap2ID": 1718124624095
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1722974261969,
+            "ap2ID": 1722974276447
         }
     ],
-    "unitsIndex": 0,
     "fileTypeVersion": 1,
     "compiledBom": [],
     "filetypeVersion": 1
