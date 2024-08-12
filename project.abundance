@@ -254,7 +254,7 @@
                 },
                 {
                     "name": "y length",
-                    "ioValue": 452
+                    "ioValue": 10
                 }
             ]
         },
@@ -326,13 +326,6 @@
         {
             "ap1Name": "number or geometry",
             "ap2Name": "x length",
-            "ap2Primary": false,
-            "ap1ID": 1718124679556,
-            "ap2ID": 1722974261969
-        },
-        {
-            "ap1Name": "number or geometry",
-            "ap2Name": "y length",
             "ap2Primary": false,
             "ap1ID": 1718124679556,
             "ap2ID": 1722974261969
