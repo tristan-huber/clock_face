@@ -187,39 +187,6 @@
             "cutTag": true
         },
         {
-            "atomType": "CutLayout",
-            "name": "Cut Layout",
-            "x": 0.8326822916666666,
-            "y": 0.6792963464140731,
-            "uniqueID": 1718409604860,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1718409241627
-                },
-                {
-                    "name": "Material Thickness",
-                    "ioValue": 13
-                },
-                {
-                    "name": "Sheet Width",
-                    "ioValue": 2438
-                },
-                {
-                    "name": "Sheet Height",
-                    "ioValue": 1219
-                },
-                {
-                    "name": "Part Padding",
-                    "ioValue": 0
-                },
-                {
-                    "name": "Sheet Padding",
-                    "ioValue": 79
-                }
-            ]
-        },
-        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.98,
@@ -228,7 +195,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": 1718409604860
+                    "ioValue": 1718409241627
                 }
             ]
         },
@@ -383,13 +350,6 @@
         },
         {
             "ap1Name": "number or geometry",
-            "ap2Name": "Material Thickness",
-            "ap2Primary": false,
-            "ap1ID": 1718124734979,
-            "ap2ID": 1718409604860
-        },
-        {
-            "ap1Name": "number or geometry",
             "ap2Name": "height",
             "ap2Primary": false,
             "ap1ID": 1718124734979,
@@ -418,16 +378,9 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 1718409241627,
-            "ap2ID": 1718409604860
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
-            "ap1ID": 1718409604860,
+            "ap1ID": 1718409241627,
             "ap2ID": 1718124624095
         },
         {
