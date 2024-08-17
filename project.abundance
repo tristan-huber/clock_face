@@ -200,6 +200,22 @@
                 {
                     "name": "Material Thickness",
                     "ioValue": 13
+                },
+                {
+                    "name": "Sheet Width",
+                    "ioValue": 96
+                },
+                {
+                    "name": "Sheet Height",
+                    "ioValue": 48
+                },
+                {
+                    "name": "Part Padding",
+                    "ioValue": 0.25
+                },
+                {
+                    "name": "Sheet Padding",
+                    "ioValue": 3
                 }
             ]
         },
@@ -209,12 +225,7 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1718124624095,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1718409604860
-                }
-            ]
+            "ioValues": []
         },
         {
             "atomType": "Move",
@@ -443,6 +454,7 @@
             "ap2ID": 1718409241627
         }
     ],
+    "unitsKey": "MM",
     "fileTypeVersion": 1,
     "compiledBom": [],
     "filetypeVersion": 1
