@@ -189,8 +189,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.8404947916666667,
-            "y": 0.7225981055480379,
+            "x": 0.837890625,
+            "y": 0.7144790257104194,
             "uniqueID": 1718409604860,
             "ioValues": [
                 {
@@ -207,7 +207,7 @@
                 },
                 {
                     "name": "Sheet Height",
-                    "ioValue": 200
+                    "ioValue": 1219
                 },
                 {
                     "name": "Part Padding",
