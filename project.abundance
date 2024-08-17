@@ -189,8 +189,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.8411458333333334,
-            "y": 0.7320703653585927,
+            "x": 0.8404947916666667,
+            "y": 0.7225981055480379,
             "uniqueID": 1718409604860,
             "ioValues": [
                 {
@@ -203,19 +203,19 @@
                 },
                 {
                     "name": "Sheet Width",
-                    "ioValue": 96
+                    "ioValue": 2438
                 },
                 {
                     "name": "Sheet Height",
-                    "ioValue": 48
+                    "ioValue": 1219
                 },
                 {
                     "name": "Part Padding",
-                    "ioValue": 0.25
+                    "ioValue": 0
                 },
                 {
                     "name": "Sheet Padding",
-                    "ioValue": 3
+                    "ioValue": 79
                 }
             ]
         },
@@ -225,7 +225,12 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1718124624095,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1718409604860
+                }
+            ]
         },
         {
             "atomType": "Move",
