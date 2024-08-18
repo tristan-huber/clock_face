@@ -195,7 +195,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": 1718409241627
+                    "ioValue": 1724017311060
                 }
             ]
         },
@@ -275,6 +275,39 @@
                 }
             ],
             "unionType": "Assembly"
+        },
+        {
+            "atomType": "CutLayout",
+            "name": "Cut Layout",
+            "x": 0.8743489583333334,
+            "y": 0.6468200270635994,
+            "uniqueID": 1724017311060,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1718409241627
+                },
+                {
+                    "name": "Material Thickness",
+                    "ioValue": 19
+                },
+                {
+                    "name": "Sheet Width",
+                    "ioValue": 2438
+                },
+                {
+                    "name": "Sheet Height",
+                    "ioValue": 1219
+                },
+                {
+                    "name": "Part Padding",
+                    "ioValue": 6
+                },
+                {
+                    "name": "Sheet Padding",
+                    "ioValue": 76
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -378,10 +411,10 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
+            "ap2Name": "geometry",
             "ap2Primary": false,
             "ap1ID": 1718409241627,
-            "ap2ID": 1718124624095
+            "ap2ID": 1724017311060
         },
         {
             "ap1Name": "geometry",
@@ -410,6 +443,13 @@
             "ap2Primary": true,
             "ap1ID": 1722974362247,
             "ap2ID": 1718409241627
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1724017311060,
+            "ap2ID": 1718124624095
         }
     ],
     "unitsKey": "MM",
